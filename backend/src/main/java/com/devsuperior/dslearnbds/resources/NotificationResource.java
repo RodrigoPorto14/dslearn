@@ -23,4 +23,6 @@ public class NotificationResource {
 	{
 		return ResponseEntity.ok().body(service.notificationsForCurrentUser(pageable));
 	}
+	
+	
 }
